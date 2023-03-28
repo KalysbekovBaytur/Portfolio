@@ -1,0 +1,377 @@
+
+*{
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Poppins:wght@300&display=swap');
+
+.head{
+    width: 100%;
+    /* height: 600px; */
+    background-color: #F1F1F1;
+}
+.kelvin{
+    font-size: 25px;
+    font-family:  'Poppins', sans-serif;;
+}
+.imghero{
+    width: 400px;
+}
+.words{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+   position: relative;
+}
+.home{
+    display: flex;
+    position: relative;
+}
+.inhome{
+    display: flex;
+}
+.slovo{
+    margin-left: 35px;
+    opacity: 1;
+    font-family:  'Poppins', sans-serif;;
+}
+.slovo:hover{
+    color: grey;
+}
+.slovo2{
+    margin-left: 35px;
+    opacity: 1;
+    font-family:  'Poppins', sans-serif;;
+    color: black;
+}
+.slovo2:hover{
+    color: grey;
+}
+.dtcr{
+    display: none;
+    justify-content: end;
+}
+.dtcr2{
+    display: none;
+}
+.dotts{
+     position: absolute;
+      opacity: 0;
+}
+.crest{
+     opacity: 0; 
+   position: absolute;
+}
+.display{
+    /* width: 100%; */
+    padding: 20px;
+    display:flex ;
+    flex-wrap: wrap;
+    background-color: #F1F1F1;
+    justify-content: center;
+}
+.kramer{
+    /* margin-top: 150px;
+    margin-left: 150px; */
+    width: 355px;
+    padding-top: 140px;
+    margin-right: 160px;
+}
+.design{
+width:482px;
+height:100px;
+Top:281px;
+Left:215px;
+margin-bottom: 0;
+}
+.photo{
+    width: 100%;
+    text-align: center;
+}
+.font{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family:  'Poppins', sans-serif;;
+    margin-bottom: 0;
+}
+.mrgtop{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pop{
+    margin-top: 30px;
+    font-family:  'Poppins', sans-serif;;
+}
+.during{
+    font-family:  'Poppins', sans-serif;;
+    margin-top: 0;
+}
+ .hero{
+  height: 520px;
+  width: 400px;
+} 
+.head2{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    justify-content: space-around;
+}
+.pp{
+    font-family:  'Poppins', sans-serif;; 
+}
+.ppp{
+    margin-top: -10px;
+    font-family:  'Poppins', sans-serif;;
+}
+.pppp{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:  'Poppins', sans-serif;;
+}
+.nothead{
+    display: flex;
+    
+}
+.mmm{
+    margin: 50px;
+}
+.head3{
+    width: 100%;
+    height: 2300px;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.PORTF{
+    font-size: 27px;
+    font-family:  'Poppins', sans-serif;;
+}
+.left{
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.mmmm{
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.calk{  
+    margin-left: 40%;
+    padding-top: 3%;
+}
+.wword{
+    color: black;
+    text-align: center;
+    font-family:  'Poppins', sans-serif;;
+}
+.contacts{
+    font-size: 30px;
+    font-family:  'Poppins', sans-serif;;
+}
+.head4{
+    margin-top: 6%;
+}
+.pcont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border-radius: 30px;
+    background-color: black;
+    width: 150px;
+    height: 35px;
+    margin-bottom: 1%;
+}
+.button{
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+    font-family:  'Poppins', sans-serif;;
+}
+.you{
+    margin-top: -1%;
+    margin-bottom: 3%;
+    font-family:  'Poppins', sans-serif;;
+}
+.send{
+    color: rgb(255, 255, 255);
+}
+.screen{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    width: 100%;
+}
+.png{
+    width: 57px;
+    margin-left: 4%;
+    height: 3%;
+}
+.like{
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+.likee{
+    color: grey;
+    font-family:  'Poppins', sans-serif;;
+}
+.hidden{
+    opacity: 0;
+}
+.view{
+    display: block;
+    position: fixed;
+    right: 15%;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+    box-shadow: -1px 0px 3px grey;
+    background-color: white;
+    z-index: 5;
+    transition: 0.4s;
+}
+.peshka{
+    width: 50%;
+    text-align: center;
+}
+@media (max-width:590px) {
+    .home{
+        display: none;
+        /* justify-content: space-between; */
+        position: fixed;
+        right: 15%;
+        top: 0px;
+        width: 50%;
+        height: 100%;
+        box-shadow: -1px 0px 3px grey;
+        background-color: white;
+        z-index: 5;
+        transition: 0.4s;
+        /* opacity: 0; */
+    }
+    .crest{
+        top: 13px;
+        right: 15px;
+        display: block;
+    }
+    .dtcr{
+        display: block;
+        height: 41px;
+    }
+    /* *** */
+    .kelvin{
+        margin-top: 0;
+        font-size: 32px;
+    }
+    .font{
+        font-size: 34px;
+    }
+    /* .kramer{
+        margin-top: -140px;
+        margin-left: 25px   ;
+        width: 375px;
+        height: 707px;
+        left: 0px;
+        top: 0px;
+
+    } */
+    .slovo{
+        opacity: 1;
+    }
+    .dotts{
+        opacity: 1;
+        display: block;
+    }
+    .hidden{
+        right: 100px;
+    }
+    .br{
+        display: none;
+    }
+    .words{
+        /* display: block; */
+        align-items: center;
+    }
+    .font{
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .hero{
+        width:80% ;
+        height: 450px;
+    }
+    .mrgtop{
+        margin-top: -35px;
+    }
+    .pop{
+        margin-top: 35px;
+    }
+    .head2{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    .nothead{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mmm{
+        flex: 0 0 100%;
+        height: 228px;
+    }
+    .photo{
+        width: 420px;
+        height: 200px;
+    }
+    .head3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 1007px;
+    }
+    .mmmm{
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+    .left{
+    margin-top: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    }
+    .calk{
+    margin-top: 0;
+    margin-left: 0;
+    }
+    .png{
+    width: 45px;
+    height: 40px;
+    } 
+    .kramer{
+        margin-left: 142px;
+        padding-top: 0;
+    }
+    .imghero{
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        
+    } 
+    
+    .display{
+        width: 100%;
+        padding: 0;
+        /* height: 435px; */
+    }
+
+}
